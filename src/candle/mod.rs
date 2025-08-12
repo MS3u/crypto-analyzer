@@ -1,2 +1,2 @@
-pub mod candle_science;
-pub use candle_science::Candle;  // re-export Candle here
+pub mod candle;
+pub use candle::{Candle, update_labels};  // re-export Candle here
